@@ -9,7 +9,7 @@ Algorithms:
                                     (b) Wrap-around logic ensures the snake reappears from the opposite side when it crosses the screen boundary.
 (II) Collision Detection: Checks if the snake collides with itself by comparing the head's coordinates with the coordinates of all other segments.
 (III) Food Consumption: If the snake's head coordinates match the food's coordinates, the snake grows longer, and new food is spawned.
-OOP Concepts used:
+OOPs Concepts used:
 (I)Classes and Objects: (a)`Snake`: Represents the snake with attributes like length, direction, and body segments.
                         (b)`Board`: Represents the game board, manages the snake, food, and score.
 (II)Encapsulation: Attributes of the Snake class are private, and public methods are used to interact with these attributes.
